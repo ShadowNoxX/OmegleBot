@@ -1,10 +1,10 @@
-Hello ! F
-How are you ?
-What are your hobbies ?
-I'm 16
-Can I tell you a story ?
-I was cooking pasta and then my potatoes were in fire lol
-Do you have stories to tell me too ?
-:-)
-Wow
-Sorry I have to go Bye
+<MESSAGE1>
+<MESSAGE2>
+<MESSAGE3>
+<MESSAGE4>
+<MESSAGE5>
+<MESSAGE6>
+<MESSAGE7>
+<MESSAGE8>
+<MESSAGE9>
+<MESSAGE10>
