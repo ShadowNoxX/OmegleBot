@@ -43,11 +43,12 @@ while True:
         for x in messages:
             sleep(1)
             message_box = driver.find_element_by_class_name('chatmsg ')
-            send_message(x, message_box)
             if x == "THE LAST BOT":
                 for i in range(3):
                     sleep(0.4)
                     stop_button.click()
+            else:
+                send_message(x, message_box)
 
 
     except:
