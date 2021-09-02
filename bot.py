@@ -19,10 +19,11 @@ sleep(3)
 text_button = driver.find_element_by_xpath('//*[@id="textbtn"]')
 text_button.click()
 
+sleep(2)
 # Agree to terms of service
-driver.find_element_by_xpath('/html/body/div[7]/div/p[1]/label/input').click()
-driver.find_element_by_xpath('/html/body/div[7]/div/p[2]/label/input').click()
-driver.find_element_by_xpath('/html/body/div[7]/div/p[3]/input').click()
+driver.find_element_by_css_selector(r'body > div:nth-child(15) > div:nth-child(1) > p:nth-child(2) > label:nth-child(1) > input:nth-child(1)').click()
+driver.find_element_by_css_selector(r'body > div:nth-child(15) > div:nth-child(1) > p:nth-child(3) > label:nth-child(1) > input:nth-child(1)').click()
+driver.find_element_by_css_selector(r'body > div:nth-child(15) > div:nth-child(1) > p:nth-child(4) > input:nth-child(1)').click()
 
 # Declare the messages list in our messages.txt file
 f = open("messages.txt")
